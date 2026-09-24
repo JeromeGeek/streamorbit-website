@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "StreamOrbit — Find Your Next Watch",
   description:
     "Discover trending movies & TV shows, see where they're streaming, and build synced watchlists. StreamOrbit for Android.",
+  openGraph: { images: ["/logo.png"] },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

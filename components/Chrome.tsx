@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { SITE } from "@/lib/site";
@@ -8,10 +9,7 @@ import { SITE } from "@/lib/site";
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2">
-      <span className="relative grid h-8 w-8 place-items-center rounded-full bg-brand/10 ring-1 ring-brand/40">
-        <span className="h-3 w-3 rounded-full bg-brand shadow-[0_0_12px_#00e475]" />
-        <span className="absolute inset-0 rotate-[-25deg] scale-x-[1.35] rounded-full border border-brand/60" />
-      </span>
+      <Image src="/logo.png" alt="StreamOrbit logo" width={36} height={36} className="h-9 w-9 scale-125" priority />
       <span className="text-lg font-bold text-white">StreamOrbit</span>
     </Link>
   );

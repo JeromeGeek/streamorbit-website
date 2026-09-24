@@ -75,6 +75,7 @@ export default function Landing() {
             transition={{ duration: 0.7 }}
             className="text-center lg:text-left"
           >
+            <Image src="/logo.png" alt="StreamOrbit" width={96} height={96} priority className="mx-auto mb-5 h-20 w-20 drop-shadow-[0_0_25px_rgba(0,228,117,0.45)] lg:mx-0" />
             <span className="inline-flex items-center gap-2 rounded-full border border-brand/30 bg-brand/5 px-4 py-1.5 text-xs text-mint sm:text-sm">
               <Sparkles size={14} /> The Ultimate Entertainment Companion
             </span>
@@ -199,6 +200,7 @@ export default function Landing() {
         >
           <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(0,228,117,0.2),transparent_70%)]" />
           <div className="relative">
+            <Image src="/logo.png" alt="StreamOrbit" width={120} height={120} className="mx-auto mb-4 h-24 w-24 drop-shadow-[0_0_30px_rgba(0,228,117,0.5)] sm:h-28 sm:w-28" />
             <h2 className="text-3xl font-bold leading-tight sm:text-5xl">Ready for movie night?</h2>
             <p className="mx-auto mt-4 max-w-md text-zinc-400">Find your next favorite in seconds.</p>
             <div className="mt-8 flex justify-center">
