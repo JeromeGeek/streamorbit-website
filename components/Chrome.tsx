@@ -27,10 +27,8 @@ export function AndroidIcon({ className = "h-5 w-5" }: { className?: string }) {
 
 const NAV = [
   ["Features", "/#features"],
-  ["Discovery", "/#discovery"],
-  ["Playlists", "/#sync"],
-  ["Downloader", "/#features"],
-  ["About", "/#about"],
+  ["Screens", "/#screens"],
+  ["Privacy", "/privacy"],
 ];
 
 export function Header() {
